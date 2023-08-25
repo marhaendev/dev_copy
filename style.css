@@ -26,25 +26,26 @@
   }
 
   .dev ._copy_info {
-  	font-family: 'Open Sans', sans-serif;
-    display: none;
-    position: fixed;
-    bottom: 150px;
-    left: 0;
-    width: 100%;
-    background-color: teal;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    animation: slide-up 0.5s ease;
-    z-index:99!important;
-  }
+  font-family: 'Open Sans', sans-serif;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: teal;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  animation: slide-in-left 0.5s ease;
+  z-index: 99!important;
+}
 
-  @keyframes slide-up {
-    from {
-      transform: translateY(100%);
-    }
-    to {
-      transform: translateY(0);
-    }
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
   }
+  to {
+    transform: translateX(0);
+  }
+}
+
