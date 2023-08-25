@@ -7,7 +7,7 @@
   }
 
   .dev ._copy_btn {
-    font-size: 14px;
+    font-size: 14px!important;
     display: none;
     background-color: teal;
     color: #fff;
