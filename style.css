@@ -29,7 +29,7 @@
   	font-family: 'Open Sans', sans-serif;
     display: none;
     position: fixed;
-    top: 0;
+    bottom: 150px;
     left: 0;
     width: 100%;
     background-color: teal;
