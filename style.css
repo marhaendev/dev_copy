@@ -7,7 +7,7 @@
   }
 
   .dev ._copy_btn {
-    font-size: 14px!important;
+    font-size: 14px;
     display: none;
     background-color: teal;
     color: #fff;
@@ -26,26 +26,25 @@
   }
 
   .dev ._copy_info {
-  font-family: 'Open Sans', sans-serif;
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  background-color: teal;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  animation: slide-in-left 0.5s ease;
-  z-index: 99!important;
-}
-
-@keyframes slide-in-left {
-  from {
-    transform: translateX(-100%);
+  	font-family: 'Open Sans', sans-serif;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    animation: slide-up 0.5s ease;
+    z-index:99;
   }
-  to {
-    transform: translateX(0);
-  }
-}
 
+  @keyframes slide-up {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
