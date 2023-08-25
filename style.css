@@ -37,7 +37,7 @@
     text-align: center;
     padding: 10px 0;
     animation: slide-up 0.5s ease;
-    z-index:999!important;
+    z-index:99!important;
   }
 
   @keyframes slide-up {
