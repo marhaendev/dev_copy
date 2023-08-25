@@ -13,16 +13,16 @@ copy html using class
 ```
 
 ## Using
-- make container and add **dev**
+- add class **dev** as container
 - use class **_copy**
 
 ## example
 ```
 <div class="dev">
-  <div class="copy"> text example</div>
+  <div class="_copy"> text example</div>
 </div>
 ```
 ### result
 ```
-<div class="copy"> text example</div>
+<div class=""> text example</div>
 ```
