@@ -7,9 +7,9 @@ copy html using class
 
 ### code
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/marhaendev/dev_copy/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/marhaendev/dev_copy@main/style.css">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/marhaendev/dev_copy/script.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/marhaendev/dev_copy@main/script.js"></script>
 ```
 
 ## Using
